@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E242C29617167D79001E3CC7 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E242C29517167D79001E3CC7 /* Cocoa.framework */; };
+		E242C29817167D79001E3CC7 /* AppleScriptObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E242C29717167D79001E3CC7 /* AppleScriptObjC.framework */; };
+		E242C2A217167D79001E3CC7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E242C2A017167D79001E3CC7 /* InfoPlist.strings */; };
+		E242C2A417167D79001E3CC7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E242C2A317167D79001E3CC7 /* main.m */; };
+		E242C2A817167D7A001E3CC7 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = E242C2A617167D7A001E3CC7 /* Credits.rtf */; };
+		E242C2AA17167D7A001E3CC7 /* AppDelegate.applescript in Sources */ = {isa = PBXBuildFile; fileRef = E242C2A917167D7A001E3CC7 /* AppDelegate.applescript */; };
+		E242C2AD17167D7A001E3CC7 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = E242C2AB17167D7A001E3CC7 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E242C29217167D79001E3CC7 /* Tweeter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tweeter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E242C29517167D79001E3CC7 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		E242C29717167D79001E3CC7 /* AppleScriptObjC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppleScriptObjC.framework; path = System/Library/Frameworks/AppleScriptObjC.framework; sourceTree = SDKROOT; };
+		E242C29A17167D79001E3CC7 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		E242C29B17167D79001E3CC7 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		E242C29C17167D79001E3CC7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E242C29F17167D79001E3CC7 /* Tweeter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tweeter-Info.plist"; sourceTree = "<group>"; };
+		E242C2A117167D79001E3CC7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E242C2A317167D79001E3CC7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E242C2A517167D7A001E3CC7 /* Tweeter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tweeter-Prefix.pch"; sourceTree = "<group>"; };
+		E242C2A717167D7A001E3CC7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		E242C2A917167D7A001E3CC7 /* AppDelegate.applescript */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.applescript; path = AppDelegate.applescript; sourceTree = "<group>"; };
+		E242C2AC17167D7A001E3CC7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E242C28F17167D79001E3CC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E242C29617167D79001E3CC7 /* Cocoa.framework in Frameworks */,
+				E242C29817167D79001E3CC7 /* AppleScriptObjC.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E242C28917167D79001E3CC7 = {
+			isa = PBXGroup;
+			children = (
+				E242C29D17167D79001E3CC7 /* Tweeter */,
+				E242C29417167D79001E3CC7 /* Frameworks */,
+				E242C29317167D79001E3CC7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E242C29317167D79001E3CC7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E242C29217167D79001E3CC7 /* Tweeter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E242C29417167D79001E3CC7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E242C29517167D79001E3CC7 /* Cocoa.framework */,
+				E242C29717167D79001E3CC7 /* AppleScriptObjC.framework */,
+				E242C29917167D79001E3CC7 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E242C29917167D79001E3CC7 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E242C29A17167D79001E3CC7 /* AppKit.framework */,
+				E242C29B17167D79001E3CC7 /* CoreData.framework */,
+				E242C29C17167D79001E3CC7 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		E242C29D17167D79001E3CC7 /* Tweeter */ = {
+			isa = PBXGroup;
+			children = (
+				E242C2A917167D7A001E3CC7 /* AppDelegate.applescript */,
+				E242C2AB17167D7A001E3CC7 /* MainMenu.xib */,
+				E242C29E17167D79001E3CC7 /* Supporting Files */,
+			);
+			path = Tweeter;
+			sourceTree = "<group>";
+		};
+		E242C29E17167D79001E3CC7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E242C29F17167D79001E3CC7 /* Tweeter-Info.plist */,
+				E242C2A017167D79001E3CC7 /* InfoPlist.strings */,
+				E242C2A317167D79001E3CC7 /* main.m */,
+				E242C2A517167D7A001E3CC7 /* Tweeter-Prefix.pch */,
+				E242C2A617167D7A001E3CC7 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E242C29117167D79001E3CC7 /* Tweeter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E242C2B017167D7A001E3CC7 /* Build configuration list for PBXNativeTarget "Tweeter" */;
+			buildPhases = (
+				E242C28E17167D79001E3CC7 /* Sources */,
+				E242C28F17167D79001E3CC7 /* Frameworks */,
+				E242C29017167D79001E3CC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tweeter;
+			productName = Tweeter;
+			productReference = E242C29217167D79001E3CC7 /* Tweeter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E242C28A17167D79001E3CC7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = mii;
+			};
+			buildConfigurationList = E242C28D17167D79001E3CC7 /* Build configuration list for PBXProject "Tweeter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E242C28917167D79001E3CC7;
+			productRefGroup = E242C29317167D79001E3CC7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E242C29117167D79001E3CC7 /* Tweeter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E242C29017167D79001E3CC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E242C2A217167D79001E3CC7 /* InfoPlist.strings in Resources */,
+				E242C2A817167D7A001E3CC7 /* Credits.rtf in Resources */,
+				E242C2AD17167D7A001E3CC7 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E242C28E17167D79001E3CC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E242C2A417167D79001E3CC7 /* main.m in Sources */,
+				E242C2AA17167D7A001E3CC7 /* AppDelegate.applescript in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E242C2A017167D79001E3CC7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E242C2A117167D79001E3CC7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E242C2A617167D7A001E3CC7 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E242C2A717167D7A001E3CC7 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		E242C2AB17167D7A001E3CC7 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E242C2AC17167D7A001E3CC7 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E242C2AE17167D7A001E3CC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E242C2AF17167D7A001E3CC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E242C2B117167D7A001E3CC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tweeter/Tweeter-Prefix.pch";
+				INFOPLIST_FILE = "Tweeter/Tweeter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E242C2B217167D7A001E3CC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tweeter/Tweeter-Prefix.pch";
+				INFOPLIST_FILE = "Tweeter/Tweeter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E242C28D17167D79001E3CC7 /* Build configuration list for PBXProject "Tweeter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E242C2AE17167D7A001E3CC7 /* Debug */,
+				E242C2AF17167D7A001E3CC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E242C2B017167D7A001E3CC7 /* Build configuration list for PBXNativeTarget "Tweeter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E242C2B117167D7A001E3CC7 /* Debug */,
+				E242C2B217167D7A001E3CC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E242C28A17167D79001E3CC7 /* Project object */;
+}
