@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E209CA621760D65F00F9A4A1 /* README.markdown in Resources */ = {isa = PBXBuildFile; fileRef = E209CA611760D65F00F9A4A1 /* README.markdown */; };
 		E242C29617167D79001E3CC7 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E242C29517167D79001E3CC7 /* Cocoa.framework */; };
 		E242C29817167D79001E3CC7 /* AppleScriptObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E242C29717167D79001E3CC7 /* AppleScriptObjC.framework */; };
 		E242C2A217167D79001E3CC7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E242C2A017167D79001E3CC7 /* InfoPlist.strings */; };
@@ -14,9 +15,16 @@
 		E242C2A817167D7A001E3CC7 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = E242C2A617167D7A001E3CC7 /* Credits.rtf */; };
 		E242C2AA17167D7A001E3CC7 /* AppDelegate.applescript in Sources */ = {isa = PBXBuildFile; fileRef = E242C2A917167D7A001E3CC7 /* AppDelegate.applescript */; };
 		E242C2AD17167D7A001E3CC7 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = E242C2AB17167D7A001E3CC7 /* MainMenu.xib */; };
+		E242C2B417167EC7001E3CC7 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E242C2B317167EC7001E3CC7 /* Social.framework */; };
+		E242C2B617168216001E3CC7 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E242C2B517168216001E3CC7 /* Accounts.framework */; };
+		E242C2B817169C74001E3CC7 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E242C2B717169C74001E3CC7 /* Carbon.framework */; };
+		E242C2BE17169DE5001E3CC7 /* DDHotKeyCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = E242C2BC17169DE5001E3CC7 /* DDHotKeyCenter.m */; };
+		E242C2C01716A6A5001E3CC7 /* TweeterIconTemplate.png in Resources */ = {isa = PBXBuildFile; fileRef = E242C2BF1716A6A5001E3CC7 /* TweeterIconTemplate.png */; };
+		E242C2C21716A7CE001E3CC7 /* tweeter.icns in Resources */ = {isa = PBXBuildFile; fileRef = E242C2C11716A7CE001E3CC7 /* tweeter.icns */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E209CA611760D65F00F9A4A1 /* README.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.markdown; sourceTree = "<group>"; };
 		E242C29217167D79001E3CC7 /* Tweeter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tweeter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E242C29517167D79001E3CC7 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		E242C29717167D79001E3CC7 /* AppleScriptObjC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppleScriptObjC.framework; path = System/Library/Frameworks/AppleScriptObjC.framework; sourceTree = SDKROOT; };
@@ -30,6 +38,13 @@
 		E242C2A717167D7A001E3CC7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		E242C2A917167D7A001E3CC7 /* AppDelegate.applescript */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.applescript; path = AppDelegate.applescript; sourceTree = "<group>"; };
 		E242C2AC17167D7A001E3CC7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		E242C2B317167EC7001E3CC7 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		E242C2B517168216001E3CC7 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		E242C2B717169C74001E3CC7 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
+		E242C2BB17169DE5001E3CC7 /* DDHotKeyCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDHotKeyCenter.h; sourceTree = "<group>"; };
+		E242C2BC17169DE5001E3CC7 /* DDHotKeyCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDHotKeyCenter.m; sourceTree = "<group>"; };
+		E242C2BF1716A6A5001E3CC7 /* TweeterIconTemplate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TweeterIconTemplate.png; sourceTree = "<group>"; };
+		E242C2C11716A7CE001E3CC7 /* tweeter.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = tweeter.icns; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +52,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E242C2B817169C74001E3CC7 /* Carbon.framework in Frameworks */,
+				E242C2B617168216001E3CC7 /* Accounts.framework in Frameworks */,
+				E242C2B417167EC7001E3CC7 /* Social.framework in Frameworks */,
 				E242C29617167D79001E3CC7 /* Cocoa.framework in Frameworks */,
 				E242C29817167D79001E3CC7 /* AppleScriptObjC.framework in Frameworks */,
 			);
@@ -48,6 +66,8 @@
 		E242C28917167D79001E3CC7 = {
 			isa = PBXGroup;
 			children = (
+				E209CA611760D65F00F9A4A1 /* README.markdown */,
+				E242C2C11716A7CE001E3CC7 /* tweeter.icns */,
 				E242C29D17167D79001E3CC7 /* Tweeter */,
 				E242C29417167D79001E3CC7 /* Frameworks */,
 				E242C29317167D79001E3CC7 /* Products */,
@@ -65,6 +85,9 @@
 		E242C29417167D79001E3CC7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E242C2B717169C74001E3CC7 /* Carbon.framework */,
+				E242C2B517168216001E3CC7 /* Accounts.framework */,
+				E242C2B317167EC7001E3CC7 /* Social.framework */,
 				E242C29517167D79001E3CC7 /* Cocoa.framework */,
 				E242C29717167D79001E3CC7 /* AppleScriptObjC.framework */,
 				E242C29917167D79001E3CC7 /* Other Frameworks */,
@@ -85,6 +108,8 @@
 		E242C29D17167D79001E3CC7 /* Tweeter */ = {
 			isa = PBXGroup;
 			children = (
+				E242C2BB17169DE5001E3CC7 /* DDHotKeyCenter.h */,
+				E242C2BC17169DE5001E3CC7 /* DDHotKeyCenter.m */,
 				E242C2A917167D7A001E3CC7 /* AppDelegate.applescript */,
 				E242C2AB17167D7A001E3CC7 /* MainMenu.xib */,
 				E242C29E17167D79001E3CC7 /* Supporting Files */,
@@ -95,6 +120,7 @@
 		E242C29E17167D79001E3CC7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E242C2BF1716A6A5001E3CC7 /* TweeterIconTemplate.png */,
 				E242C29F17167D79001E3CC7 /* Tweeter-Info.plist */,
 				E242C2A017167D79001E3CC7 /* InfoPlist.strings */,
 				E242C2A317167D79001E3CC7 /* main.m */,
@@ -158,6 +184,9 @@
 				E242C2A217167D79001E3CC7 /* InfoPlist.strings in Resources */,
 				E242C2A817167D7A001E3CC7 /* Credits.rtf in Resources */,
 				E242C2AD17167D7A001E3CC7 /* MainMenu.xib in Resources */,
+				E242C2C01716A6A5001E3CC7 /* TweeterIconTemplate.png in Resources */,
+				E242C2C21716A7CE001E3CC7 /* tweeter.icns in Resources */,
+				E209CA621760D65F00F9A4A1 /* README.markdown in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -170,6 +199,7 @@
 			files = (
 				E242C2A417167D79001E3CC7 /* main.m in Sources */,
 				E242C2AA17167D7A001E3CC7 /* AppDelegate.applescript in Sources */,
+				E242C2BE17169DE5001E3CC7 /* DDHotKeyCenter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +293,7 @@
 		E242C2B117167D7A001E3CC7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Tweeter/Tweeter-Prefix.pch";
@@ -275,6 +306,7 @@
 		E242C2B217167D7A001E3CC7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Tweeter/Tweeter-Prefix.pch";
@@ -303,6 +335,7 @@
 				E242C2B217167D7A001E3CC7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
